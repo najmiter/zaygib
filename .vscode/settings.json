@@ -2,5 +2,12 @@
   "github.copilot.enable": {
     "*": false
   },
-  "editor.tabSize": 4
+  "[zig]": {
+    "editor.tabSize": 4,
+    "editor.formatOnSave": false,
+    "editor.formatOnPaste": false,
+    "editor.defaultFormatter": "ziglang.vscode-zig",
+    "editor.stickyScroll.defaultModel": "foldingProviderModel",
+    "files.eol": "\n"
+  }
 }
